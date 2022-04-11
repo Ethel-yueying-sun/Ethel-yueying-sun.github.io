@@ -9,9 +9,9 @@ I enjoy creating great user experiences and hassle free solutions. I work with s
 
 ---
 
-![Workflow]({{site.baseurl}}/images/58BF49FB-C6E4-4418-AF51-0C6E92769E86.JPG)
+<!-- ![Workflow]({{site.baseurl}}/images/58BF49FB-C6E4-4418-AF51-0C6E92769E86.JPG)
 
-<!-- _Photo by [Daniel Romero](https://unsplash.com/@rmrdnl) on Unsplash_ -->
+_Photo by [Daniel Romero](https://unsplash.com/@rmrdnl) on Unsplash_ -->
 
 This blog is an attempt towards archiving my thoughts regarding life, technology and art. I write whatever I feel like writing. I believe the human mind is capable of expressing more with written words rather than spoken and that our true potential lies withing exploring the deep abyss of self discovery and there we find the most amazing of answers.
 
