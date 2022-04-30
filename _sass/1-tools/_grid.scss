@@ -97,26 +97,26 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
 
   // TABLET
-  @media(max-width: $tablet) {
+  // @media(max-width: $tablet) {
 
-    @for $i from 0 through $columns {
-      .col-t-#{$i} {
-        width: percentage( $i / $columns );
-      }
-    }
+  //   @for $i from 0 through $columns {
+  //     .col-t-#{$i} {
+  //       width: percentage( $i / $columns );
+  //     }
+  //   }
 
-    @for $i from 0 through $columns {
-      .push-t-#{$i} {
-        margin-left: percentage( $i / $columns );
-      }
-    }
+  //   @for $i from 0 through $columns {
+  //     .push-t-#{$i} {
+  //       margin-left: percentage( $i / $columns );
+  //     }
+  //   }
 
-    @for $i from 0 through $columns {
-      .pull-t-#{$i} {
-        margin-right: percentage( $i / $columns );
-      }
-    }
-  }
+  //   @for $i from 0 through $columns {
+  //     .pull-t-#{$i} {
+  //       margin-right: percentage( $i / $columns );
+  //     }
+  //   }
+  // }
 
   // MOBILE
   @media(max-width: $mobile) {

@@ -198,45 +198,45 @@ hr {
   }
 }
 
-.table-container {
-  display: block;
-  max-width: 100%;
-  overflow-x: auto;
-}
+// .table-container {
+//   display: block;
+//   max-width: 100%;
+//   overflow-x: auto;
+// }
 
-table {
-  font-size: 12px;
-  color: var(--dark);
-  width: 100%;
-  border-width: 1px;
-  border-color: var(--background-alt-color);
-  border-collapse: collapse;
-  color: var(--heading-font-color);
-}
+// table {
+//   font-size: 12px;
+//   color: var(--dark);
+//   width: 100%;
+//   border-width: 1px;
+//   border-color: var(--background-alt-color);
+//   border-collapse: collapse;
+//   color: var(--heading-font-color);
+// }
 
-table th {
-  padding: 10px;
-  font-size: 16px;
-  text-align: left;
-  border: 1px solid var(--background-alt-color);
-  color: var(--white);
-  font-weight: 700;
-  background-color: var(--background-alt-color);
-}
+// table th {
+//   padding: 10px;
+//   font-size: 16px;
+//   text-align: left;
+//   border: 1px solid var(--background-alt-color);
+//   color: var(--white);
+//   font-weight: 700;
+//   background-color: var(--background-alt-color);
+// }
 
-table tr {
-  background-color: var(--tr-color);
-  transition: all .3s ease;
-  &:nth-child(even) {
-    background-color: transparent;
-  }
-}
+// table tr {
+//   background-color: var(--tr-color);
+//   transition: all .3s ease;
+//   &:nth-child(even) {
+//     background-color: transparent;
+//   }
+// }
 
-table td {
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid var(--background-alt-color);
-}
+// table td {
+//   padding: 10px;
+//   font-size: 14px;
+//   border: 1px solid var(--background-alt-color);
+// }
 
 .button {
   display: inline-block;

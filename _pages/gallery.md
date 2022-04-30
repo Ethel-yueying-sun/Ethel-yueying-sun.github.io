@@ -5,7 +5,7 @@ permalink: /gallery/
 # image: "/images/avatar.jpg"
 ---
 
-<h1> 2022 </h1>
+<!-- <h1> 2022 </h1>
 
 <h3> 四川 </h3>
 
@@ -17,7 +17,7 @@ permalink: /gallery/
   <div class="gallery">
     <img src="/images/gallery/2022-Jinsha.png">
   </div>
-</div>
+</div> -->
 
 <h1> 2019 </h1>
 

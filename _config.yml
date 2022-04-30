@@ -3,7 +3,7 @@
 # General Site Settings
 title: Ethel
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Unknown for now
+# description: Unknown for now
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://aliirz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Author Settings
 author:
   name: Ethel
-  bio: Student from SCU, expecting graduation in June.
+  # bio: 略
   avatar: "/images/avatar.jpg"
 
 social:
@@ -50,7 +50,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hey, I am Ethel! 
-  hero__description: Student from SCU, expecting graduation in June.
+  # hero__description: 
   hero__image: "/images/avatar.jpg"
 
 #-------------------------------
