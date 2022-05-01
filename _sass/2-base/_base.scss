@@ -183,20 +183,20 @@ a {
   }
 }
 
-hr {
-  position: relative;
-  height: 1px;
-  margin: 60px 0;
-  border: 0;
+// hr {
+//   position: relative;
+//   height: 1px;
+//   margin: 60px 0;
+//   border: 0;
 
-  &::before {
-    content: ". . .";
-    position: absolute;
-    top: -5px;
-    line-height: 0;
-    color: var(--heading-font-color);
-  }
-}
+//   &::before {
+//     content: ". . .";
+//     position: absolute;
+//     top: -5px;
+//     line-height: 0;
+//     color: var(--heading-font-color);
+//   }
+// }
 
 // .table-container {
 //   display: block;
