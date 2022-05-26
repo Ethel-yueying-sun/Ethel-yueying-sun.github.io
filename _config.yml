@@ -72,7 +72,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: ethel # add your shortname for Disqus Comment. For example anvodstudio-demo
+# disqus-identifier: ethel # add your shortname for Disqus Comment. For example anvodstudio-demo
 
 #-------------------------------
 # Google Analytics

@@ -74,6 +74,23 @@ layout: default
 
     {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
 
+    <div id="container"></div>
+    <!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
+    <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+    <script src="https://billts.site/js/gitment.js"></script>
+    <script>
+      var gitment = new Gitment({
+        owner: 'Ethel-yueying-sun',
+        repo: 'GitComments',
+        oauth: {
+          client_id: 'b156017e27c5a60660e5',
+          client_secret: 'c8660de87f1c0c5ea360eb20045ecbcb8decd601',
+        },
+      })
+      gitment.render('container')
+    </script>
+
   </article>
 </div>
 <!-- end post -->
