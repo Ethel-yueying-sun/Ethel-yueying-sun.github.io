@@ -77,6 +77,7 @@ layout: default
     <div id="container"></div>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
     <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
     <script>
       var gitalk = new Gitalk({
         owner: 'Ethel-yueying-sun',
@@ -84,7 +85,8 @@ layout: default
         repo: 'GitComments',
         clientID: 'b156017e27c5a60660e5',
         clientSecret: 'c8660de87f1c0c5ea360eb20045ecbcb8decd601',
-        distractionFreeMode: false
+        distractionFreeMode: false,
+        id: md5(location.pathname)
       })
       gitalk.render('container')
     </script>
