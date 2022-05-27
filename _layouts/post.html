@@ -75,22 +75,18 @@ layout: default
     <!-- {% if site.disqus-identifier %} {% include disqus-comments.html %} {% endif %} -->
 
     <div id="container"></div>    
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>    
-<!--     <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-    <script src="https://billts.site/js/gitment.js"></script> -->    
-<!--     <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-    <script src="https://jjeejj.github.io/js/gitment.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script>
-      var gitment = new Gitment({
+      var gitalk = new Gitalk({
         owner: 'Ethel-yueying-sun',
+        admin: ['Ethel-yueying-sun'],
         repo: 'GitComments',
-        oauth: {
-          client_id: 'b156017e27c5a60660e5',
-          client_secret: 'c8660de87f1c0c5ea360eb20045ecbcb8decd601',
-        },
+        clientID: 'b156017e27c5a60660e5',
+        clientSecret: 'c8660de87f1c0c5ea360eb20045ecbcb8decd601',
+        distractionFreeMode: false
       })
-      gitment.render('container')
+      gitalk.render('container')
     </script>
 
   </article>
