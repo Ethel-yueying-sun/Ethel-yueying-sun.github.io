@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 博客成长史 
-description: 菜鸟学习HTML的记录
+title: 记录 
+description: 没想好
 date: 2022-05-29
 # image: "./images/2022/04/Games/cover.jpg"
 tags: [2022, tech]
