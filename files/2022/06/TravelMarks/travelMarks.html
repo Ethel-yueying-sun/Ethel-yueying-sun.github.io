@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china-cities.js"></script>
+
+</head>
+<body>
+    <div id="b53a63504e864899b8915921c3f20e85" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_b53a63504e864899b8915921c3f20e85 = echarts.init(
+            document.getElementById('b53a63504e864899b8915921c3f20e85'), 'white', {renderer: 'canvas'});
+        var option_b53a63504e864899b8915921c3f20e85 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "TravelMarks",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china-cities",
+            "data": [
+                {
+                    "name": "\u6d1b\u9633",
+                    "value": 6750
+                },
+                {
+                    "name": "\u5f00\u5c01",
+                    "value": 1095
+                },
+                {
+                    "name": "\u90d1\u5dde",
+                    "value": 100
+                },
+                {
+                    "name": "\u6210\u90fd",
+                    "value": 913
+                },
+                {
+                    "name": "\u5fb7\u9633",
+                    "value": 1
+                },
+                {
+                    "name": "\u4e50\u5c71",
+                    "value": 3
+                },
+                {
+                    "name": "\u676d\u5dde",
+                    "value": 3
+                },
+                {
+                    "name": "\u4e3d\u6c34",
+                    "value": 2
+                },
+                {
+                    "name": "\u91d1\u534e",
+                    "value": 1
+                },
+                {
+                    "name": "\u6df1\u5733",
+                    "value": 1
+                },
+                {
+                    "name": "\u897f\u5b89",
+                    "value": 15
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 2
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": 5
+                },
+                {
+                    "name": "\u6fb3\u95e8",
+                    "value": 5
+                },
+                {
+                    "name": "\u8d35\u9633",
+                    "value": 3
+                },
+                {
+                    "name": "\u897f\u5b81",
+                    "value": 2
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "TravelMarks"
+            ],
+            "selected": {
+                "TravelMarks": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 6750,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0
+    }
+};
+        chart_b53a63504e864899b8915921c3f20e85.setOption(option_b53a63504e864899b8915921c3f20e85);
+    </script>
+</body>
+</html>
